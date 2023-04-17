@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.*;
 import uz.pdp.appjparelationships.entity.Faculty;
 import uz.pdp.appjparelationships.entity.Group;
 import uz.pdp.appjparelationships.payload.GroupDto;
-import uz.pdp.appjparelationships.repository.FacultyRepository;
 import uz.pdp.appjparelationships.repository.GroupRepository;
 
 import java.util.List;
