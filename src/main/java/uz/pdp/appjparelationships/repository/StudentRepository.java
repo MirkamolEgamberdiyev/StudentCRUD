@@ -6,6 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import uz.pdp.appjparelationships.entity.Student;
 import uz.pdp.appjparelationships.entity.Subject;
 
+import java.util.List;
+
 public interface StudentRepository extends JpaRepository<Student, Integer> {
 
 
