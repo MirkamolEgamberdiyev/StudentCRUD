@@ -23,8 +23,7 @@ public class SubjectController {
         return "Subject added";
     }
 
-    //READ
-//    @RequestMapping(method = RequestMethod.GET)
+
     @GetMapping
     public List<Subject> getSubjects() {
         List<Subject> subjectList = subjectRepository.findAll();
